@@ -1,0 +1,67 @@
+.btn-custom{
+    background-color: transparent;
+      border-color: #3CB7DE; /* Warna border */
+      color: #3CB7DE; /* Warna teks */
+}
+.btn-custom:hover {
+    background-color: #3CB7DE;
+    color: white;
+}
+.btn-custom-1{
+    background-color: #3CB7DE;
+    color: white;
+}
+.btn-custom-1:hover{
+    background-color: #368aa4;
+    color: white;
+}
+.btn-custom-2{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn-custom-2:hover{
+    background-color: #fff;
+    color: #3CB7DE;
+}
+.navbar-nav .nav-item{
+    margin-right: 30px;
+}
+ .navbar-nav .nav-item .nav-link {
+    color: black;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #3CB7DE;
+}
+.navbar-nav .nav-link.active {
+    position: relative; 
+}
+.navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 50%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #3CB7DE;
+    transform: translateX(50%);
+}
+#about-us{
+    margin-top: 10%;
+    background: linear-gradient(90deg, #3CB7DE 0%, rgba(18, 68, 84, 0.81) 100%);
+}
+#solo-learn{
+    margin-top: 8%;
+}
+#bootcamp{
+    margin-top: 8%;
+}
+#quiz{
+    margin-top: 8%;
+}
+#community{
+    margin-top: 10%;
+    background: linear-gradient(90deg, rgba(0, 47, 59, 0.90) 0%, #00161C 100%);
+}
