@@ -34,8 +34,10 @@
   .navbar-nav .nav-item .nav-link:hover {
     color: #3CB7DE;
 }
-.navbar-nav .nav-link.active {
-    position: relative; 
+.navbar-nav .nav-item .nav-link.active {
+    position: relative;
+    color: #3CB7DE;
+    font-weight: 500; 
 }
 .navbar-nav .nav-link.active::after {
     content: "";
